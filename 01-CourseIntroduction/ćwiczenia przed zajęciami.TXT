@@ -1,0 +1,51 @@
+Rozdział 1
+1. Jaką rolę pełni w komputerze pamięć pomocnicza?
+c. Przechowuje informacje przez dłuższy czas, nawet po wyłączeniu sprzętu
+
+2. Czym jest program?
+Program to zestaw instrukcji, które wykonuje komputer służących do wykonywania określonych działań.
+
+3. Jaka jest różnica między kompilatorem a interpreterem?
+Interpreter to program, który w locie podczas wykonywania programu tłumaczy kod napisany w języku programowania na kod maszynowy. Natomiast kompilator przed wykonaniem programu dokonuje tej zamiany na kod maszynowy tworząc przy tym osobny kod maszynowy, który nie musi być później w locie tłumaczony i jest całkowicie gotowy do pełnego wykonania przez komputer.
+
+4. Która z poniższych opcji zawiera „kod maszynowy”?
+a. Interpreter Pythona
+
+5. Co jest nie tak w poniższym kodzie?
+Nie ma takiej instrukcji jak primt, jest za to funkcja print().
+
+6. Gdzie w komputerze będzie przechowywana zmienna x po wykonaniu poniższej linijki kodu Pythona?
+b. W pamięci głównej.
+
+7. Co wyświetli poniższy program?
+b. 44
+
+8. Wyjaśnij każdy z poniższych elementów na przykładzie możliwości człowieka:
+a. procesor; mózg
+b. pamięć główna; pamięć krótkotrwała
+c. pamięć pomocnicza; pamięć długotrwała
+d. urządzenie wejścia; oczy, nos, język, uszy, inne organy odpowiedzialne za odbierania bodźców z zewnątrz.
+e. urządzenie wyjścia. aparat mowy i inne części ciała, którymi można prozumiewać się z zewnętrznym światem.
+
+9. W jaki sposób naprawisz „Syntax Error” (błąd składniowy)?
+Poprawię składnię mojego programu tak, aby interpreter zrozumiał to co napisałem.
+
+Rozdział 2
+2.
+imie = input("Podaj swoje imię:")
+print("Witaj "+imie+"!")
+
+3.
+liczbaGodzin = int(input("Podaj liczbę godzin:"))
+stawka = int(input("Podaj stawkę godzinową:"))
+print("Wynagrodzenie ", liczbaGodzin*stawka)
+
+4.
+1. width//2 int
+2. width/2.0 float
+3. height/3 float
+4. 1 + 2 * 5 int
+
+5.
+temperatura_w_celsjuszach = float(input("Podaj temperaturę w Celsjusza:"))
+print("temperatura w stopniach Fahrenheita:", temperatura_w_celsjuszach*1.8+32)
