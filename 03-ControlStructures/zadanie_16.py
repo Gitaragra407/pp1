@@ -1,0 +1,1 @@
+a = float(input("liczba jeden"))
