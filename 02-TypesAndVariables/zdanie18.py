@@ -1,0 +1,7 @@
+a = float(input("podaj bok a\n"))
+b = float(input("podaj bok b\n"))
+c = float(input("podaj bok c\n"))
+polowa_obwodu=float((a+b+c)/2)
+pole_trojkata=float(polowa_obwodu*((polowa_obwodu-a)+(polowa_obwodu-b)+(polowa_obwodu-c)))
+pole_trojkata=math.sqrt(pole_trojkata)
+print("Pole to:",pole_trojkata)
